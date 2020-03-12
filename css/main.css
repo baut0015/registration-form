@@ -1,3 +1,39 @@
 html {
   font-family: "Open Sans", sans-serif;
+  background-color: #f2f2f2;
+}
+
+.button {
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  border-bottom: 1px solid #000;
+}
+
+legend {
+  padding-right: 1em;
+}
+
+section {
+  background-color: white;
+}
+
+@media only screen and (min-width: 60em) {
+
+  section {
+    margin-right: 7em;
+    margin-left: 7em;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  section {
+    margin-right: 16.5em;
+    margin-left: 16.5em;
+  }
+
 }

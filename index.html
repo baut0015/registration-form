@@ -14,35 +14,38 @@
   <section class="contact island">
 
     <div class="max-length">
-      <h1 class="normal push-0 pad-t">Want to go to Mars?</h1>
-      <hr>
+      <h1 class="normal push pad-t">Want to go to Mars?</h1>
+
       <p class="mega push">We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
     </div>
 
     <form class="push-0" method="POST" action="https://formspree.io/baut0015@algonquinlive.com">
       <fieldset>
         <legend class="italic mega push-1-2">Personal details</legend>
-
-        <div class="push">
-          <label for="name">Name</label>
-          <input id="name" name="name" required>
+        <div class="grid">
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
+            <label for="age">Age</label>
+            <input id="age" name="age" required>
+          </div>
         </div>
-        <div class="push">
-          <label for="age">Age</label>
-          <input id="age" name="age" required>
-        </div>
-        <div class="push">
-          <label for="email">Email</label>
-          <input id="email" type="email" name="email" required>
-        </div>
-        <div class="push">
-          <label for="physical-fitness">Physical fitness</label>
-          <select id="physical-fitness" name="_physical fitness">
-            <option>Super-human</option>
-            <option>Fit as a fiddle</option>
-            <option>Not terribly strong</option>
-            <option>A little couch-potato-y</option>
-          </select>
+        <div class="grid">
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" required>
+          </div>
+          <div class="push unit xs-1 s-1 m-1 l-1-2 xl-1-2 gutter-1-2">
+            <label for="physical-fitness">Physical fitness</label>
+            <select id="physical-fitness" name="_physical fitness">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
         </div>
         <div class="push-1-8">
           <label for="address">Address</label>
@@ -61,6 +64,7 @@
           <button class="btn" type="submit">Register for the trip!</button>
         </div>
       </fieldset>
+      <input type="hidden" name="_subject" value="Request to join the mission">
     </form>
   </section>
 
